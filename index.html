@@ -8,7 +8,9 @@
 
   <script src="https://cdn.ravenjs.com/3.17.0/raven.min.js" crossorigin="anonymous"></script>
   <script>
-    window.Raven.config('https://09216a2faed14da5a7abdba71e695d0e@sentry.io/222980').install();
+    window.Raven.config('https://09216a2faed14da5a7abdba71e695d0e@sentry.io/222980').install({
+      release: 'cdabd8b08bf4613031f5249f1ccf4fb9b7fae3f4'
+    });
   </script>
   <script src="script.js?bump4"></script>
 </body>
